@@ -1,8 +1,10 @@
 import React from "react";
-import { TextField, Typography, Box } from "@mui/material";
-import { textFieldCompProps } from "@/types/signup";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import { TextFieldProps } from "@/types/signup";
 
-const TextFieldComponent = ({ label ,type, width }: textFieldCompProps) => {
+const TextFieldComponent = ({ label ,type, width }: TextFieldProps) => {
   console.log("Rendering TextFieldComponent");
   return (
     <Box>

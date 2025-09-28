@@ -1,15 +1,13 @@
 import React from "react";
-import {
-  Box,
-  Typography,
-  Checkbox,
-  FormControlLabel,
-} from "@mui/material";
-import CustomButton from "../common/CustomButton";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Checkbox from "@mui/material/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import CustomButton from "@/components/common/CustomButton";
 import { colorsStatus } from "@/utilities/constants";
-import Heading from "../common/Heading";
-import FormGridSection from "./FormGridSection";
-import CheckboxChoice from "../common/CheckboxChoice";
+import Heading from "@/components/common/Heading";
+import FormGridSection from "@/components/SignupComponents/FormGridSection";
+import CheckboxChoice from "@/components/common/CheckboxChoice";
 
 const RightSide: React.FC = () => {
   return (

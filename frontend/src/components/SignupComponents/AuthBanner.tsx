@@ -1,5 +1,7 @@
 import React from "react";
-import { Box, Typography, Stack } from "@mui/material";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Stack from "@mui/material/Stack";
 import CustomButton from "../common/CustomButton";
 import { colorsStatus } from "@/utilities/constants";
 import { overlayStyle } from "@/utilities/overlayStyle";

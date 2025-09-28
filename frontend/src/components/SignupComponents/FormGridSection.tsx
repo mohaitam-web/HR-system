@@ -1,11 +1,12 @@
-import { useFields } from "@/hooks/useFields";
+import { useTextFields } from "@/hooks/useTextFields";
 import React from "react";
-import { Box, Grid} from "@mui/material";
-import TextFieldComponent from "../common/TextFieldComponent";
+import Box from "@mui/material/Box"
+import Grid from "@mui/material/Grid"
+import TextFieldComponent from "@/components/common/TextFieldComponent";
 
 const FormGridSection: React.FC = () => {
   console.log("Rendering FormGridSection");
-  const fields = useFields();
+  const fields = useTextFields();
   return (
     <>
       <Grid container spacing={4}>

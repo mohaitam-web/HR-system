@@ -1,9 +1,10 @@
 // this array is used in the signup form to render the input fields
 
+import { TextFieldProps } from "@/types/signup";
 import { useMemo } from "react";
 
-export const useFields = () => {
-  return useMemo(() => [
+export const useTextFields = (): TextFieldProps[] => {
+  return useMemo<TextFieldProps[]>(() => [
     { label: "First Name" },
     { label: "Last Name" },
     { label: "E-mail Address" },

@@ -1,4 +1,4 @@
-// this array is used in the signup form to render the input fields
+// this memoized array is used in the signup form to render the input fields
 
 import { TextFieldProps } from "@/types/signup";
 import { useMemo } from "react";
